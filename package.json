@@ -18,6 +18,7 @@
     "web monitor",
     "web monitor sdk"
   ],
+  "repository": "https://github.com/baoyadong/pf-web-monitor",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.19.1",
