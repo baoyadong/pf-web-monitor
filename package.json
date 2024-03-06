@@ -20,7 +20,7 @@
     "web monitor sdk"
   ],
   "repository": {
-    "type": "git",
+    "type": "github",
     "url": "git+https://github.com/baoyadong/pf-web-monitor.git"
   },
   "homepage": "https://github.com/baoyadong/pf-web-monitor",
