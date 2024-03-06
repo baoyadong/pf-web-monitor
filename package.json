@@ -1,10 +1,11 @@
 {
   "name": "pf-web-monitor",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "private": false,
   "description": "监控SDK，一款自研的前端监控SDK，可用来收集并上报：代码报错、性能数据、用户行为、加载资源、个性化指标等数据",
   "main": "dist/index.min.js",
   "module": "dist/index.esm.js",
+  "author": "xuzhudong",
   "scripts": {
     "build:dev": "rollup -w -c",
     "build:rollup": "rollup -c",
@@ -18,7 +19,11 @@
     "web monitor",
     "web monitor sdk"
   ],
-  "repository": "https://github.com/baoyadong/pf-web-monitor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baoyadong/pf-web-monitor.git"
+  },
+  "homepage": "https://github.com/baoyadong/pf-web-monitor",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.19.1",
