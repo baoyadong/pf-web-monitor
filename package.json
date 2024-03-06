@@ -5,7 +5,10 @@
   "description": "监控SDK，一款自研的前端监控SDK，可用来收集并上报：代码报错、性能数据、用户行为、加载资源、个性化指标等数据",
   "main": "dist/index.min.js",
   "module": "dist/index.esm.js",
-  "author": "xuzhudong",
+  "author": {
+    "name": "xuzhudong",
+    "email": "451547014@qq.com"
+  },
   "scripts": {
     "build:dev": "rollup -w -c",
     "build:rollup": "rollup -c",
@@ -21,10 +24,10 @@
   ],
   "repository": {
     "type": "github",
-    "url": "git+https://github.com/baoyadong/pf-web-monitor.git"
+    "url": "https://github.com/baoyadong/pf-web-monitor"
   },
   "homepage": "https://github.com/baoyadong/pf-web-monitor",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "core-js": "^3.19.1",
     "error-stack-parser": "^2.1.4",
